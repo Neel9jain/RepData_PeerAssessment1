@@ -7,7 +7,6 @@ output:
 
 
 
-This is the Assignment project in the Reproducible research week 2 
 
 
 ## Loading and preprocessing the data
@@ -275,7 +274,7 @@ Mean_Steps_df<- aggregate(steps ~ interval + day, data = Updated_Activity_Data, 
 ## Making the Plot 
 
 xyplot(steps ~ interval | day, data = Mean_Steps_df, type = "l", lwd = 2,
-       layout = c(1, 2), xlab = "interval", ylab = "Number of steps")
+       layout = c(1, 2), xlab = "Interval", ylab = "Number of steps")
 ```
 
 ![](PA1_template_files/figure-html/weekday -1.png)<!-- -->
